@@ -165,14 +165,14 @@ local actions = {
 			end
 		else
 			local list = {
-				[1] = "star",
-				[2] = "circle",
-				[3] = "diamond",
-				[4] = "triangle",
-				[5] = "moon",
-				[6] = "square",
-				[7] = "cross",
-				[8] = "skull",
+				"star",
+				"circle",
+				"diamond",
+				"triangle",
+				"moon",
+				"square",
+				"cross",
+				"skull",
 			}
 
 			for _ = 1, 18 do
