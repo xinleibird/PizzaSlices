@@ -94,7 +94,7 @@ Then creating a macro with `/ps open 1` would open the Raid Marks, `/ps open 2` 
 > Opening rings through macros is currently not supported if you have the addon Bongos installed.
 
 > [!NOTE]
-> 
+>
 > This feature requires your action buttons to trigger on keydown, not on keyup (which is the game's default). PizzaSlices therefore comes with its own version of [Snowfall](https://github.com/Linae-Kronos/Classic-Snowfall). Note that if you're using pfUI, PizzaSlices forces your "Trigger Actions on Key Down" pfUI action bar setting to always be enabled.
 
 > [!NOTE]
@@ -134,7 +134,7 @@ Please check the [issue list](https://github.com/Pizzahawaiii/PizzaSlices/issues
 You're always more than welcome to ask questions or provide any kind of feedback.
 
 - **Discord**: Pizza
-- **Nordanaar**: Pizzahawaii, Pizzamista, Pizzapimp, Pizzapaws, Pizzapog<br />If you see anyone whose name starts with 'Pizza', chances are it's me. 
+- **Nordanaar**: Pizzahawaii, Pizzamista, Pizzapimp, Pizzapaws, Pizzapog<br />If you see anyone whose name starts with 'Pizza', chances are it's me.
 
 ## Credits
 
