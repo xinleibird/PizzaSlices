@@ -170,8 +170,18 @@ local actions = {
 			-- 	end
 			-- 	TargetNearestEnemy()
 			-- end
-			RunSlashCmd("/trytargetmark " .. v)
-			SlashCmdList["ACECONSOLE_RECOUNT"]("show")
+			local list = {
+				[1] = "star",
+				[2] = "circle",
+				[3] = "diamond",
+				[4] = "triangle",
+				[5] = "moon",
+				[6] = "square",
+				[7] = "cross",
+				[8] = "skull",
+			}
+
+			RunSlashCmd("/trytargetmark " .. list(tonumber(v)))
 		end
 	end,
 
