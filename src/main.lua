@@ -138,12 +138,13 @@ local actions = {
 				PS.clearRaidTargetAt = GetTime() + 0.15
 			end
 		else
-			for _ = 1, 18 do
-				if GetRaidTargetIndex("target") == tonumber(v) then
-					break
-				end
-				TargetNearestEnemy()
-			end
+			-- for _ = 1, 18 do
+			-- 	if GetRaidTargetIndex("target") == tonumber(v) then
+			-- 		break
+			-- 	end
+			-- 	TargetNearestEnemy()
+			-- end
+			srm.tryTargetMark(v)
 		end
 	end,
 
