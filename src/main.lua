@@ -164,12 +164,6 @@ local actions = {
 				PS.clearRaidTargetAt = GetTime() + 0.15
 			end
 		else
-			-- for _ = 1, 18 do
-			-- 	if GetRaidTargetIndex("target") == tonumber(v) then
-			-- 		break
-			-- 	end
-			-- 	TargetNearestEnemy()
-			-- end
 			local list = {
 				[1] = "star",
 				[2] = "circle",
@@ -181,7 +175,12 @@ local actions = {
 				[8] = "skull",
 			}
 
-			RunSlashCmd("/trytargetmark " .. list(tonumber(v)))
+			for _ = 1, 18 do
+				if GetRaidTargetIndex("target") == tonumber(v) then
+					break
+				end
+				RunSlashCmd("/trytargetmark " .. list(tonumber(v)))
+			end
 		end
 	end,
 
