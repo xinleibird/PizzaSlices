@@ -144,7 +144,7 @@ local actions = {
 			-- 	end
 			-- 	TargetNearestEnemy()
 			-- end
-			srm.tryTargetMark(v)
+			RunSlashCmd("/trytargetmark " .. v)
 		end
 	end,
 
